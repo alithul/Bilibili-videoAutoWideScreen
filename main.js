@@ -22,7 +22,7 @@
         if (btn) {
             btn.click();
             clearInterval(timer);
-        } else if (count > 10) {
+        } else if (count > 50) {
             clearInterval(timer);
         }
     }, 200);
